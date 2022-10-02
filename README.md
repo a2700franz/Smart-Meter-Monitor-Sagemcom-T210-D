@@ -4,6 +4,8 @@ M-Bus Adapter für Smart Meter Sagemcom T210-D der Netz-NOE mit galvanischer Tre
 
 ACHTUNG: Alle hier eingestellten Informationen erfolgen ohne Gewähr. Dies ist keine Nachbauanleitung, sonder beschreibt lediglich wie ich an diese Projekt herangegangen bin.
 
+![grafik](https://user-images.githubusercontent.com/59536966/193453709-8a2b42c1-649f-40e6-8e9b-00a1a951b350.png)
+
 Der M-Bus Adapter nutzt die Tatsache, dass das Smart Meter keine Eingaben erfordert. Dadurch genügt die einfache Ansteuerung eines Optokopplers. Die M-Bus Leitungen müssen polrichtig angeschlossen werden. Eine Vertauschung ist unkritisch, ergibt jedoch keine Funktion.
 
 Um ein sauberes Signal sicherzustellen wird ein Schmitt-Trigger benutzt. Die überzähligen Gatter können mittels Jumper für eine Ledanzeige genutzt werden.
