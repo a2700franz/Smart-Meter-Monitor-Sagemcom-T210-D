@@ -12,6 +12,6 @@ Der Optokoppler benötigt eine Stromversorgung zwischen 3V3 und 5V. Der Pegel de
 
 Der M-Bus Transmitter ist getrennt vom Adapter aufgebaut und dient zur drahtlosen Übertragung der Daten. Es kann hier jeder ESP benutzt werden, die Platine ist für einen ESP-12F ausgelegt, der sich gerade in der Bastelkiste befand. Auf der Platine wurden auch zwei Schalter integriert um sie auch zum Flashen des ESP verwenden zu können.
 
-Die Software für den Transmitter wurde mit der Arduino IDE erstellt. Die Daten werden von der M-Bus Schnittstelle entgegengenommen und mittels UDP an eine beliebige Zieladresse im WLAN weitergeleitet. Wenn kein WLAN gefunden wird startet der der Transmitterals AccessPoint (IP: 192.168.4.1). Die Konfiguration kan dann über ein Webinterface eingestellt werden. Die Software unterstützt OTA und Debugging über UDP.
+Die Software für den Transmitter wurde mit der Arduino IDE erstellt. Die Daten werden von der M-Bus Schnittstelle entgegengenommen und mittels UDP an eine beliebige Zieladresse im WLAN weitergeleitet. Wenn kein WLAN gefunden wird startet der der Transmitter als AccessPoint (IP: 192.168.4.1). Die Konfiguration kan dann über ein Webinterface eingestellt werden. Die Software unterstützt OTA und Debugging über UDP.
 
 Die Schalpläne und Platinen wurden mit Eagle gezeichnet.
