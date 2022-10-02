@@ -9,3 +9,5 @@ Der M-Bus Adapter nutzt die Tatsache, dass das Smart Meter keine Eingaben erford
 Um ein sauberes Signal sicherzustellen wird ein Schmitt-Trigger benutzt. Die überzähligen Gatter können mittels Jumper für eine Ledanzeige genutzt werden.
 
 Der Optokoppler benötigt eine Stromversorgung zwischen 3V3 und 5V. Der Pegel des Ausgangssignals liegt dann ebenfalls in diesem Bereich.
+
+Der Schalplan und die Platine wurden mit Eagle gezeichnet.
