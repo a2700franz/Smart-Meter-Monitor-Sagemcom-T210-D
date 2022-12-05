@@ -119,7 +119,7 @@ while True:
 	MBusStart = Frame[0:4]
 	SystemTitle = Frame[11:19]
 	FrameCounter = Frame[22:26]
-	FrameNr= FrameCounter[0] << 24 | FrameCounter[1] << 16 | FrameCounter[1] << 8 | FrameCounter[3]
+	FrameNr= FrameCounter[0] << 24 | FrameCounter[1] << 16 | FrameCounter[2] << 8 | FrameCounter[3]
 	EncryptedData = Frame[26:280]
 	Checksum = Frame[280]
 	MBusStop = Frame[281]
